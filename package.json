@@ -1,0 +1,28 @@
+{
+  "name": "@kotodaman-unofficial/kotononomicon",
+  "version": "0.5.0",
+  "scripts": {
+    "start": "NUXT_HOST=0.0.0.0 nuxt --spa",
+    "build": "nuxt generate --no-lock",
+    "deploy": "cd dist && now --public && now alias $(pbpaste) kotononomicon"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-eslint": "^10.0.1",
+    "cookie-universal-nuxt": "^2.0.14",
+    "eslint": "^5.15.3",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "nuxt": "2.5",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "timsort": "^0.3.0",
+    "vue-shortkey": "^3.1.7",
+    "vuex-persistedstate": "^2.5.4"
+  }
+}
