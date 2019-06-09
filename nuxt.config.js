@@ -19,7 +19,7 @@ export default {
       { rel: 'icon', type: 'image/png', href: '/favicon.png' }
     ],
     script: [
-      { src: 'http://unpkg.com/@kotodaman-unofficial/dictionary' }
+      { src: 'https://unpkg.com/@kotodaman-unofficial/dictionary@latest/dist/finder.min.js' }
     ]
   },
   build: {
